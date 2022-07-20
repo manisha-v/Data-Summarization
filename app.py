@@ -10,7 +10,7 @@ def index():
 def summarize():
     if request.method == 'POST':
         API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
-        headers = {"Authorization": "Bearer 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"}
+        headers = {"Authorization": "Bearer XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}
 
         data = request.form["data"]
         max = int(request.form["max"])
